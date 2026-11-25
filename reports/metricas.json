@@ -1,0 +1,27 @@
+{
+  "dataset": "California Housing (scikit-learn)",
+  "target": "MedHouseVal",
+  "target_unit": "US$ 100,000",
+  "test_size": 0.2,
+  "random_state": 42,
+  "rows": 20640,
+  "models": {
+    "Ridge": {
+      "MAE": 0.5331931195789734,
+      "RMSE": 0.745556744281478,
+      "R2": 0.5758157428913683
+    },
+    "RandomForestRegressor": {
+      "MAE": 0.3265465711309171,
+      "RMSE": 0.504257911889383,
+      "R2": 0.8059567311234526
+    }
+  },
+  "selected_model": "RandomForestRegressor",
+  "selected_metrics": {
+    "MAE": 0.3265465711309171,
+    "RMSE": 0.504257911889383,
+    "R2": 0.8059567311234526
+  },
+  "note": "Resultados calculados pelo script no conjunto de teste; n\u00e3o s\u00e3o valores pr\u00e9-preenchidos."
+}
